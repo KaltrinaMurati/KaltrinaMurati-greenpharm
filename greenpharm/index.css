@@ -1,0 +1,565 @@
+#hamburger{
+    display: none;
+}
+#kryesori{
+    width: 100%;
+    height: auto;
+}
+#first{
+    width: 100%;
+    height: 650px;
+    background-image: url(close-up-hand-of-applying-moisturizing-cream-skincare-and-beauty-concept-free-photo.jpg);
+    background-size: cover; 
+    background-position: center;
+}
+#img{
+    width: 100%;
+    height: 600px;
+    position: fixed;
+    z-index: -1;
+    top: 0;
+    left: 0;
+ 
+}
+#Nav{
+    width: 100%;
+    height: 150px;
+
+
+}
+#logo{
+    width: 35%;
+    height: 150px;
+
+    float: left;
+}
+#logo1{
+    width: 200px;
+    height: 220px;
+    margin-top: -30px;
+}
+#navi{
+    width: 50%;
+
+ float: left;
+  
+}
+.menu{
+    text-decoration-line: none;
+    color: white;
+    font-weight: 600;
+    font-family: Inter;
+float: left;
+margin-left: 100px;
+font-size: 16px;
+transition: all 0.3s ease;
+}
+:hover.menu{
+color: #92B35C;
+}
+
+ul{
+  position: relative;
+  top: 67px;
+  left: 100px;
+}
+#search{
+   
+  width: 150px;
+left: 250px;
+
+position: relative;
+top: 50px;
+transition: all 0.3s ease;
+
+}
+:hover#search{
+    box-shadow:   0px 4px 10px rgba(255, 255, 255, 0.3),  0px 4px 20px rgba(0, 0, 0, 0.2);
+
+}
+#ar{
+    color: transparent;
+}
+#text{
+    width: 100%;
+    height: 600px;
+padding-top: 50px;
+padding-left: 30px;
+display: flex;
+}
+#teksti{
+    width: 50%;
+    height: auto;
+    float: left;
+}
+#trans{
+    width: 50%;
+    height: auto;
+    float: left;
+}
+
+#image{
+position: relative;
+left: 250px;
+top: -100px;}
+#e1{
+    width: 900px;
+    color: white;
+    font-size: 40px;
+    font-family: Inter;
+    font-weight: 600;
+}
+#fr{
+    font-size: 19px;
+    color: #F5F5F5;
+width: 700px;
+position: relative;
+top: 30px;
+font-weight: 500;
+font-family: Inter;
+}
+.btn{
+    color: #6D6567;
+    font-family: Inter;
+font-weight: 600;
+width: 150px;
+margin-top: 50px;
+
+}
+
+#btn1{
+    background-color: #92B35C;
+    border-color: #92B35C;
+    color: white;
+    font-weight: 600;
+    transition: all 0.3s ease;
+    margin-left: 30px;
+
+}
+:hover#btn1{
+    background-color: #fff;
+    color: #92B35C;
+}
+.big-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 20px;
+}
+
+.big-container .cell {
+    width: 30%; 
+    height: 600px;
+    padding: 20px;
+    margin-top: 20px;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;border-radius: 7px;
+}
+:nth-child(1).cell{
+    box-shadow: none;
+}
+.title{
+    font-family: Inter;
+    width: 300px;
+    color: black;
+    font-weight: 700;
+    padding-bottom: 20px;
+    font-size: 40px;
+}
+.cell p{
+    font-size: 23px;
+    color: #908888;
+    font-weight: 600;
+    width: 320px;
+    margin-top: 40px;
+}
+.circle{
+    width: 80px;
+    height: 80px;
+    background-color: #92B35C;
+    border-radius: 50%;
+    margin-top:85px;
+
+}
+#arrow{
+    color: #fff;
+    position: relative;
+    top: 25px;
+    left: 20px;
+    
+}
+.med{
+    margin-left:100px;
+}
+.med1{
+    width: 200px;
+    height: 410px;
+ margin-left: 100px;
+}
+.med2{
+    padding-bottom: 60px;
+    margin-left: 150px;
+}
+.header{
+    position: relative;
+    top: 15px;
+    color: black;
+    font-family: Inter;
+    font-weight: 600;
+    text-align: center;
+    letter-spacing: 1px;
+}
+.price{
+ color: black;
+ font-size: 25px;
+ font-weight: 700;
+ font-family: Inter;
+ text-align: center;
+ position: relative;
+ left: 70px;
+}
+.butoni{
+    color: #fff;
+    background-color: #92B35C;
+    width: 120px;
+    height: 40px;
+    border: none;
+    border-radius: 7px;
+    font-weight: 500;
+    margin: auto;
+    margin-top: 50px;
+    margin-left: 140px;
+}
+
+.bi{
+    color: white;
+   position: relative;
+   
+   font-weight: 700;
+}
+.inter{
+    width: 100%;
+    height: 700px;
+    background-image: url(routine.jpg);
+    background-size: cover; 
+    background-position: center;
+    margin-top: 150px;
+    display: flex;
+    align-items: end;
+    flex-direction: column;
+    padding-right: 50px;
+    gap: 40px;
+   
+}
+.discovery{
+ font-size: 50px;
+ width: 800px;
+ color: white;
+ text-align: end;
+font-family: Inter;
+margin-top: 70px;
+font-weight: 700;
+}
+.view{
+    width: 700px;
+    color: #F5F5F5;
+    font-weight: 500;
+    text-align: end;
+    font-size: 20px;
+}
+#down{
+    position: relative;
+    left: 20px;
+    top: 20px;
+}
+footer {
+    background-color: #f2f2f2;
+    padding: 20px;
+    text-align: center;
+margin-top: 100px;
+    font-family:Inter;
+  }
+  .footer {
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    flex-wrap: wrap;
+  }
+  .footer-section {
+    margin: 10px 0;
+  }
+  .footer-section h4 {
+    font-size: 16px;
+    margin-bottom: 10px;
+    color: #333;
+  }
+  .footer-section a {
+    display: block;
+    text-decoration: none;
+    color: #007BFF;
+    margin: 5px 0;
+  }
+  .footer-section a:hover {
+    text-decoration: underline;
+  }
+@media (max-width:430px) {
+    #hamburger {
+        display: block;
+        text-align: end;
+        position: relative;
+        left: -30px;
+        top: 50px;
+      color: #fff;
+      font-weight: 600;
+  
+    }
+    #logo1{
+        width: 170px;
+        height: 200px;
+    }
+    #navi {
+        display: none;
+        flex-direction: column;
+        background-color: #92B35C;
+        padding: 10px;
+        position: absolute;
+        top: 100px;
+        right: 0;
+        width: 100%;
+        height: 350px;
+  z-index: 2;
+    }
+    #navi ul {
+        display: flex;
+        flex-direction: column;
+       
+    }
+    #navi ul li {
+        text-align: center;
+        margin-left: -80px;
+        margin-top: 10px;
+    }
+    #navi ul li a {
+        color: white;
+        text-decoration: none;
+        font-size: 20px;
+       
+    }
+
+    #navi #search {
+     
+        color: white;
+       
+        padding: 10px;
+        margin-top: 30px;
+        position: relative;
+       margin-left: -100px;
+        top: 70px;
+    }
+    #hamburger.hidden {
+        display: none;
+    }
+
+#e1{
+width: 400px;
+text-align: center;
+margin-left: -25px;
+}
+#fr{
+    width: 400px;
+    text-align: center;
+    margin-left: -20px;
+}
+#first{
+    height: 770px;
+  
+}
+#butonipare{
+    margin-top: 70px;
+    margin-left: 110px;
+}
+#btn1{
+
+    margin-left: 110px;
+}
+.big-container{
+    flex-direction: column;
+}
+.big-container .cell{
+width: 100%;
+
+padding: 10px;
+
+}
+.title{
+text-align: center;
+margin-left: 30px;}
+.decrip{
+    text-align: center;
+    margin-left: 25px;
+}
+
+
+.circle{
+    margin: auto;
+    position: relative;
+    top: 30px;
+    left: 10px;
+}
+
+#arrow{
+    display: none;
+    
+}
+
+.discovery{
+    width: 400px;
+    text-align: center;
+    font-size: 40px;
+   position: relative;
+   left: 40px;
+  
+}
+.view{
+    width: 350px;
+    text-align: center;
+    font-size: 25px;
+    position: relative;
+    left: 15px;
+height: 50px;
+    padding: none;
+}
+
+.inter .circle{
+    display: none;
+}
+
+
+}
+
+
+
+@media (min-width:430px) and (max-width:768px) {
+  
+  #kryesori{
+    height: auto;
+  }
+    .menu{
+        font-size: 15px;
+        margin-left: -0px;
+        margin-left:25px ;
+       
+    }
+ul{
+    margin-left: -100px;
+}
+#search{
+position: relative;
+left: -0px;
+left: 160px;
+margin-top: -10px;
+}
+#e1{
+    width: 700px;
+}
+.big-container{
+    flex-direction:column ;
+    width: 100%;
+    gap: 30px;
+}
+.big-container .cell{
+    width: 60%;
+margin: auto;
+
+}
+.discovery{
+    width: 700px;
+    font-size: 50px
+}
+
+
+}
+
+
+@media screen and (min-width: 768px) and (max-width: 1440px) {
+
+    #first {
+      height: 600px; 
+    }
+  
+    #Nav {
+      height: 120px; 
+    }
+  
+    #logo {
+      width: 30%;
+      height: 100px;
+      margin-top: -10px;
+    }
+  
+    #navi {
+      width: 60%; 
+    }
+  
+    ul {
+      top: 50px;
+      left: 50px;
+    }
+  
+    .menu {
+      margin-left: 140px; 
+      font-size: 15px; 
+    }
+  
+    #search {
+      width: 130px; 
+      left: 200px; 
+      top: 30px;
+    }
+  
+   
+  
+    #teksti,
+    #trans {
+      width: 100%; 
+     
+      float: none; 
+    }
+  
+    #image {
+      position: static; 
+      margin: 0 auto;
+      top: 0;
+    }
+  
+    
+.header{
+    position: relative;
+    left: 30px;
+}
+  
+    .discovery {
+      font-size: 40px;
+      width: 100%; 
+     
+    }
+  
+    .view {
+      font-size: 25px; 
+      width: 90%; 
+     
+    }
+  
+    footer {
+      padding: 15px;
+      gap: 20px; 
+    }
+  
+    .footer-section h4 {
+      font-size: 14px;
+    }
+  
+    .footer-section a {
+      font-size: 12px; 
+    }
+  }
+  
